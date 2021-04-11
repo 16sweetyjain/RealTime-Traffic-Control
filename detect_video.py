@@ -40,6 +40,13 @@ def main(_argv):
     config.gpu_options.allow_growth = True
     session = InteractiveSession(config=config)
     STRIDES, ANCHORS, NUM_CLASS, XYSCALE = utils.load_config(FLAGS)
+    credential = credentials.Certificate('./firebase-sdk.json')             #adding credentials of firebase sdk
+    firebase_admin.initialize_app(credential,{                              #providing reference to database url 
+    'databaseURL':'https://real-time-traffic-control-default-rtdb.firebaseio.com/' 
+    })
+    ref= db.reference('/')
+    ref.set('Timestamp')                                                     
+    ref=db.reference("/Timestamp")
     input_size = FLAGS.size
     video_path = FLAGS.video
     # get video name by using split method
@@ -151,10 +158,14 @@ def main(_argv):
 
         if FLAGS.count:
             # count objects found
+            mydict={}    #creating new dictionary for storing traffic density at a particular time
             counted_classes = count_objects(pred_bbox, by_class = False, allowed_classes=allowed_classes)
+            print('Timestamp:',time.ctime(start_time))      #printing timestamp 
             # loop through dict and print
             for key, value in counted_classes.items():
                 print("Number of {}s: {}".format(key, value))
+                mydict[key]=value                 #store number of objects within their respective classes
+            ref.child(time.ctime(start_time)).set(mydict)     #pushing detected results to database
             image = utils.draw_bbox(frame, pred_bbox, FLAGS.info, counted_classes, allowed_classes=allowed_classes, read_plate=FLAGS.plate)
         else:
             image = utils.draw_bbox(frame, pred_bbox, FLAGS.info, allowed_classes=allowed_classes, read_plate=FLAGS.plate)

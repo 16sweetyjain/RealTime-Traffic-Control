@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "real-time-traffic-control",
+  "private_key_id": "f8af8d419f23faf5271c20a6b3adf5d564feeba8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCcAF90Yd1VBB7e\nTuHwFQUiYRS3G4WstKKMHX7I8NiAlR2MQFPRv4ll9qOk6F5qy3xi7ZvleZb5ckjg\nftjj0lsDiil+eyvCdZNLuSiD1FLVFI8wIwAvu2MmSns7prIrS7UuqLkPGppltdUC\nabFukg0SFFXDTZLLLjS5HojqC1zOWre6zbyTeB/Zp/97A8dJu3tS0Q2iKZX8Xi6/\nd27gMdyHtDWxHUpjQ3Euw5NzcbpDx0B1ap0P6LdvAWi5735VdcCYttHFUyFslE6w\ni8JLBxGERemWS29xBCd98NyKoVGyAR2ScTXTp1pOWOe2q0QFWkCzA7LXX0bjQ9xC\nwL0osXKvAgMBAAECggEALdwmM455hH6bnHrQDMYBJmQntNSQbX8EsfARz3yOCO7N\nKufWPDj0aVciMF5nMznyrRpw0/r0mQwxxF1F4WN7ggThwd7vtFDgJkieUnLejulm\nVp5TdbS+pwkKRTTx96xf7QGItZn6faAAqJ7tnDWvRftYYvuxBa3lre3+Dd+dPsQS\nwZNEF9vWCSPOaNeDAcdRo0YvKSqDt15boJjHAnBBjQPHLR/NT4FmvjnY9g+hPgey\nMZgHSeueGh4YDx9Gb//h/jEpDd3A0MwluwXN/5EgLEYyOJ3hAsrejrSCsja3DnJc\nKmMV4sEy1+S9NwI+HAArquK709X2zu+IMKyKAZuhEQKBgQDTu9tnG6et8uxTBwzt\nzJGXqYU8dtcauRSblDOkzpS7x7N2sQuxLhLv/FtqQyM63Nx/ZyzVdLGS/JyPXK7V\ngJD/ubAAihYIuZ5Ctv2Jz7KbNjsGvpkLZM92pGDn3yE50QBJFzqfFSV8FWdIm3yc\nAj7gctV0HzCzGw+usFX1/rFSowKBgQC8na5Al2nJMDB6Zy69TUwSqkgk1kJJEEnT\n0GX/OteDl+ITXWox3ZZ4ic4kI/6RgRuYuUbvvFe//uUgMqlECoSvCcVfUOMGD/0O\nPqhUoiQ7PGRAluenFpkuQ7Cf8C3FzIV8X8wmrZ4YrHIZMk9bC/q4JdbUTej3zLDG\nUvjd/YSshQKBgQCrgFJq5f+f6lB5wBA83aJgUjNVkn0RbDDBA/4A1EOtBkjbLvTl\ngwhb0vDI1bDHkPYZTB0ImQjsoii+Brimvwiz2lgxV6gZUSBbsZUT92QYTIjrIZ8d\nl35j/ylvJ1DmX9/3VBVrndlK9JtAOJFqXHdJnjo/YLQ1nwnI2ZQHOVGwOQKBgF4b\nooSxx2NNevKnpudmuM0bTxGqIbqIuP1JHosBFeSflHorAsBMmjYcM9FOcEazD0zd\nLKqS44l1KWcuP8wmH1uiWWscVZmBwrYnxx8rIz62/CJJ6N0yZk1yEp9KW9w0Fmoe\n9iJaP+Z5rBgsRPHdgUP+BTk6gkGZTJ43adqBEoBtAoGBANEjPy1GoMB96CWh/zDB\nRi7LOEsTz/+0m6/S7xUX/NCAx0pbYXhWLi0RJOm01tQl99lD1Y94Qfn8AvZIlN3w\nPNcAjXxMpPAERz/5df0n0khcbIgpla2YjQI1lTRhNLAOJId/8hnpyWCuYd4KNVZY\nVpmzSr0Y5led1YOS7z78JByS\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-q58ie@real-time-traffic-control.iam.gserviceaccount.com",
+  "client_id": "107855079364212276900",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-q58ie%40real-time-traffic-control.iam.gserviceaccount.com"
+}
